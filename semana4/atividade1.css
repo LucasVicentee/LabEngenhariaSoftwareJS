@@ -2,7 +2,8 @@
     margin: 0;
 }
 body{
-    
+    background: rgb(99,98,122);
+    background: linear-gradient(49deg, rgba(99,98,122,1) 0%, rgba(174,189,199,1) 50%, rgba(255,255,255,1) 100%);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -36,25 +37,29 @@ label{
 input[type="text"]{
     width: 25vw;
 }
-input::placeholder{
-    
-}
 .input{
+    padding-inline: 30px;
     margin-top: 5vh;
     display: flex;
-    
-
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1vh;
 }
 #formatacao {
     display: flex;
-   
+    justify-content: center;
 }
 input[type="submit"]{
     display: flex;
-    
-    
-
 }
-input[type="submit"]:hover{
-    
+
+#campos-dinamicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 3vh; 
+    width: 100%; 
 }
